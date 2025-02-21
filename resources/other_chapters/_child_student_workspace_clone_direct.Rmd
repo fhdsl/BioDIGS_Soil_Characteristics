@@ -1,0 +1,59 @@
+```{r, include = FALSE}
+if (!exists("AnVIL_module_settings")) {
+  AnVIL_module_settings <- list()
+}
+if (is.null(AnVIL_module_settings$workspace_name)) {
+  AnVIL_module_settings$workspace_name = "specified by your instructor"
+  AnVIL_module_settings$clone_name =  "ExampleWorkspace_Firstname_Lastname"
+} else {
+AnVIL_module_settings$clone_name = paste0(AnVIL_module_settings$workspace_name, "_Firstname_Lastname")
+}
+if (is.null(AnVIL_module_settings$workspace_link)) {
+  AnVIL_module_settings$workspace_link = "ask your instructor"
+}
+if (is.null(AnVIL_module_settings$billing_project)) {
+  AnVIL_module_settings$billing_project = "provided by your instructor"
+}
+```
+
+:::{.warning}
+This **will not work** until your instructor has given you permission to spend money to "rent" the computers that will power your analyses (by adding you to a "Billing Project").
+:::
+
+On AnVIL, you access files and computers through **Workspaces**.  Each Workspace functions almost like a mini code laboratory - it is a place where data can be examined, stored, and analyzed. The first thing we want to do is to copy or “clone” a Workspace to create a space for you to experiment.  This will give you access to
+
+- the files you will need (data, code)
+- the computing environment you will use
+
+:::{.notice}
+**Tip**
+At this point, it might make things easier to open up a new window in your browser and split your screen. That way, you can follow along with this guide on one side and execute the steps on the other.
+:::
+
+To clone an AnVIL Workspace:
+
+1. Go to the Workspace by clicking this link: `r AnVIL_module_settings$workspace_link`.
+    
+1. Clone the workspace by clicking the teardrop button (![teardrop button](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/child/child_assets/teardrop_button.png){width=25px}). Select "Clone". See the screenshot below on a different Workspace:
+
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot showing the teardrop button. The button has been clicked revealing the "clone" option. The Clone option and the teardrop button are highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g117abafa453_0_577")
+    ```
+
+1. You will see a popup box appear, asking you to configure your Workspace
+    a. Give your Workspace clone a name by adding an underscore ("_") and your name. For example, \"`r AnVIL_module_settings$clone_name`\".
+    a. Select the Billing Project `r AnVIL_module_settings$billing_project`.
+    a. Leave the bottom two boxes as-is.
+    a. Click “CLONE WORKSPACE”.
+    
+    See the screenshot below on a different Workspace:
+    
+    ```{r, echo=FALSE, out.width = '100%', fig.alt='Screenshot showing the "clone a workspace" popout. The Workspace name, Billing Project, and Clone Workspace button have been filled in and highlighted.'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1a5Da6qX9BG7Q_6XAz7MvlDyWTvssm2hWwuo1WFJXb_0/edit#slide=id.g17144dbacd0_0_352")
+    ```
+
+1. The new Workspace should now show up under https://anvil.terra.bio/#workspaces. This is your own copy of the Workspace to work in.
+
+```{r, include = FALSE}
+AnVIL_module_settings <<- NULL
+```
