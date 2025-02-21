@@ -8,11 +8,11 @@
 
 3. How many observations are in the soil testing values dataset that you loaded? What do each of these observations refer to?
 
-4. How many different regions are represented in the soil testing dataset? How many of them have soil testing data available?
+4. How many different soil characteristics are in the dataset? How can you tell?
 
 ## Part 2. Summarizing the Data with Statistics
 
-5. All the samples from Baltimore City and Montgomery County were collected from public park land. The parks sampled from Montgomery County were located in suburban and rural areas, compared to the urban parks sampled in Baltimore City. Why might the Montgomery County samples have a lower average arsenic concentration than the samples from Baltimore City?
+5. All the samples in the initial pilot study were collected from public park land. Some parks were located in suburban and rural areas, while others were collected from urban parks. Why might soil arsenic concentration be different for rural parks than for urban parks?
 
 6. What is the mean iron concentration for samples in this dataset? What about the standard deviation, minimum value, and maximum value?
 
@@ -28,4 +28,3 @@
 
 11. Create a histogram for _lead_ concentration, as well as a boxplot comparing lead concentration by region. Is the lead concentration similar among regions? Are there any outlier sites with unusually high or low lead concentrations?
 
-12. Look at the maps for [iron](https://biodigs.org/#iron_map) and [lead](https://biodigs.org/#lead_map) on the BioDIGS website. Do the boxplots you created make sense, given what you see on these maps? Why or why not?

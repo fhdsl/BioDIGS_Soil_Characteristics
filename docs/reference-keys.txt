@@ -40,13 +40,14 @@ launching-rstudio
 touring-rstudio
 pausing-rstudio
 deleting-rstudio
+download
 introduction
 before-you-start
 objectives-1
 part-1.-examining-the-data
-part-2.-summarizing-the-data-with-statistics
+part-2.-summarizing-with-statistics
 part-3.-visualizing-the-data
 activity-questions
 part-1.-examining-the-data-1
-part-2.-summarizing-the-data-with-statistics-1
+part-2.-summarizing-the-data-with-statistics
 part-3.-visualizing-the-data-1
