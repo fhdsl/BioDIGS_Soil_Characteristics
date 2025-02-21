@@ -21,6 +21,7 @@ BIPOC
 Bloomberg
 bookdown
 Bookdown
+Boyds
 bmr
 Brevik
 Buffalari
@@ -40,6 +41,8 @@ Cruces
 culturable
 CUNY
 customizations
+Derwood
+devtools
 dex
 dexamethasone
 Dine
@@ -58,6 +61,7 @@ ExampleWorkspace
 extractant
 Fallon
 faq
+fhdsl
 FHDaSL
 Firstname
 FirstName
@@ -66,6 +70,7 @@ Funder
 GCP
 GDSCN
 Generis
+Germantown
 github
 Glimma
 glimmaMDS
@@ -127,6 +132,7 @@ Petersburg
 plotMDS
 pmc
 PMC
+pre
 precompiled
 premade
 preprint

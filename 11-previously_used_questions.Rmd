@@ -1,0 +1,4 @@
+
+4. How many different regions are represented in the soil testing dataset? How many of them have soil testing data available?
+
+12. Look at the maps for [iron](https://biodigs.org/#iron_map) and [lead](https://biodigs.org/#lead_map) on the BioDIGS website. Do the boxplots you created make sense, given what you see on these maps? Why or why not?

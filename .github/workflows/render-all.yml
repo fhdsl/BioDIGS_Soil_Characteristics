@@ -71,6 +71,10 @@ jobs:
           git add _output.yml
           git commit -m 'Set up feedback link' || echo "No changes to commit"
 
+      - name: Install BioDIGSData
+        run: |
+          Rscript -e "remotes::install_url('https://github.com/fhdsl/BioDIGSData/archive/refs/tags/v1.0.0.0.tar.gz')"
+
       # Run Rmd rendering
       - name: Run bookdown render
         id: bookdown
